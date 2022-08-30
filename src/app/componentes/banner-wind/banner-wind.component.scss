@@ -33,8 +33,7 @@
 
             
             div {
-                display: flex;
-                align-items: center;
+                
             }
 
             .title-left {
@@ -48,6 +47,7 @@
             }
 
             .title-right {
+                display: flex;
                 justify-content: flex-end;
                 width: 30%;
 
@@ -176,10 +176,11 @@
                 display: table;
                 padding-left: 2em;
 
-                h2{
+                h1{
                     position: relative;
                     color: c.$azulClaro;
-                    
+                    font-size: 6rem;
+                    font-weight: bold!important;
 
                     span{
                         position: absolute;
@@ -204,20 +205,25 @@
             }
 
             .screen-name {
-                font-size: 3rem;
+                font-size: 2rem;
                 display: flex;
                 justify-content: center;
                 flex-direction: column;
                 align-items: center;
                 padding-bottom: 2em;
-
+                h2{
+                    color: c.$rosaFuerte;
+                }
                 span {
-                    color: c.$violetaFuerte;
+                      
+                color: c.$violetaFuerte;
+  
                 }
                 #second-title{
                     font-size: 2rem;
                     padding-left: 6em;
                     margin-top: 3em;
+                    color: c.$azulClaro;
                 }
 
             }

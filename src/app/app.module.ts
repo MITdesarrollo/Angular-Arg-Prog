@@ -12,6 +12,7 @@ import { VideoBackComponent } from './componentes/video-back/video-back.componen
 import { EstudiosComponent } from './componentes/estudios/estudios.component';
 import { ExperienciaComponent } from './componentes/experiencia/experiencia.component';
 import { SkillsComponent } from './componentes/skills/skills.component';
+import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
 
 
 
@@ -26,7 +27,8 @@ import { SkillsComponent } from './componentes/skills/skills.component';
     VideoBackComponent,
     EstudiosComponent,
     ExperienciaComponent,
-    SkillsComponent
+    SkillsComponent,
+    ProyectosComponent
   ],
   imports: [
     BrowserModule,

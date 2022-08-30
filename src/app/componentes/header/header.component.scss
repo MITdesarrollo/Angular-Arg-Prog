@@ -31,12 +31,10 @@
         }
         
         &__title {
-            
+             
              text-align: center;
              color: c.$violetaFuerte;
-            span {
-                display: block;
-            }
+            
         }
     }
 
@@ -67,5 +65,5 @@
                     }
                 }
             }
-        } }
+    }   }
 }
