@@ -1,0 +1,28 @@
+@use '../style/general.con';
+@use '../style/vars';
+
+//componentes
+
+//header
+@use '../componentes/header/header.component.scss';
+
+//banner
+@use '../componentes/banner/banner.component.scss';
+// window
+@use '../componentes/banner-wind/banner-wind.component.scss';
+
+//sobre mi
+@use '../componentes/sobre-mi/sobre-mi.component.scss';
+
+//video
+@use '../componentes/video-back/video-back.component.scss';
+
+//estudios
+@use '../componentes/estudios/estudios.component.scss';
+
+//expriencia
+@use '../componentes/experiencia/experiencia.component.scss';
+
+//skills
+
+@use '../componentes/skills/skills.component.scss';
