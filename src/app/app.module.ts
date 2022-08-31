@@ -8,11 +8,11 @@ import { BannerComponent } from './componentes/banner/banner.component';
 import { BannerWindComponent } from './componentes/banner-wind/banner-wind.component';
 import { SobreMiComponent } from './componentes/sobre-mi/sobre-mi.component';
 import { SobreMiWindComponent } from './componentes/sobre-mi-wind/sobre-mi-wind.component';
-import { VideoBackComponent } from './componentes/video-back/video-back.component';
 import { EstudiosComponent } from './componentes/estudios/estudios.component';
 import { ExperienciaComponent } from './componentes/experiencia/experiencia.component';
 import { SkillsComponent } from './componentes/skills/skills.component';
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
+
 
 
 
@@ -24,11 +24,11 @@ import { ProyectosComponent } from './componentes/proyectos/proyectos.component'
     BannerWindComponent,
     SobreMiComponent,
     SobreMiWindComponent,
-    VideoBackComponent,
     EstudiosComponent,
     ExperienciaComponent,
     SkillsComponent,
-    ProyectosComponent
+    ProyectosComponent,
+ 
   ],
   imports: [
     BrowserModule,

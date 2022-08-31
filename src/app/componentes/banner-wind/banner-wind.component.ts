@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./banner-wind.component.scss']
 })
 export class BannerWindComponent implements OnInit {
-
+   nombre="Mariel_Torres"
   constructor() { }
 
   ngOnInit(): void {
