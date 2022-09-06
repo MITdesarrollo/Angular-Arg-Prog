@@ -12,6 +12,9 @@ import { EstudiosComponent } from './componentes/estudios/estudios.component';
 import { ExperienciaComponent } from './componentes/experiencia/experiencia.component';
 import { SkillsComponent } from './componentes/skills/skills.component';
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
+import { LogoNombreComponent } from './componentes/logo-nombre/logo-nombre.component';
+import { SocialesLoginComponent } from './componentes/sociales-login/sociales-login.component';
+import { SobreMiTextoComponent } from './componentes/sobre-mi-texto/sobre-mi-texto.component';
 
 
 
@@ -28,7 +31,10 @@ import { ProyectosComponent } from './componentes/proyectos/proyectos.component'
     ExperienciaComponent,
     SkillsComponent,
     ProyectosComponent,
- 
+    LogoNombreComponent,
+    SocialesLoginComponent,
+    SobreMiTextoComponent
+  
   ],
   imports: [
     BrowserModule,

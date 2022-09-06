@@ -1,1 +1,16 @@
-@use '../../style/vars';
+@use '../../style/vars' as c;
+#second {
+    font-family: "Courier Prime", monospace;
+    margin-top: 1rem;
+    width: 100%;
+    padding-top: 8em;
+    padding-left: 1em;
+    display: flex;
+    .foto{
+        width: 30%;
+        margin-left: 2rem;
+    }
+    .descripcion{
+        width: 60%;
+    }
+}
