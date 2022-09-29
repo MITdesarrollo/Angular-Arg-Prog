@@ -3,6 +3,12 @@
 .right-header {
     display: flex;
     justify-content: flex-end;
+
+    .edit{
+        width: 2.5rem;
+        height: 2.5rem;
+        margin-right: 1rem;
+      }
     
     &__social-media {
         width: fit-content;

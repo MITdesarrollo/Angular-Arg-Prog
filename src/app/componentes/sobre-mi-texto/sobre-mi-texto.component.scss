@@ -1,26 +1,27 @@
-@use '../../style/vars'as c;
+@use '../../style/vars' as c;
 
-.texto{
-    
-    background-color: rgb(127, 108, 119, 0.7);
-    font-size: 1rem;
-    padding: 2em;
+.texto {
+
+  background-color: rgb(127, 108, 119, 0.7);
+  font-size: 1rem;
+  padding: 2em;
+  margin-left: 3em;
+  box-shadow: 24px 24px 0px -3px c.$marron;
+  -webkit-box-shadow: 24px 24px 0px -3px c.$marron;
+  -moz-box-shadow: 24px 24px 0px -3px c.$marron;
+  border-radius: 10px;
+  color: white;
+
+  h2 {
+    margin-bottom: 1em;
+  }
+
+  h3 {
     margin-left: 3em;
-    box-shadow: 24px 24px 0px -3px c.$marron;
-    -webkit-box-shadow: 24px 24px 0px -3px c.$marron;
-    -moz-box-shadow: 24px 24px 0px -3px c.$marron;
-    border-radius: 10px;
-    color: white;
-    h2{
-      margin-bottom: 1em;
+
+    textarea {
+      border-radius: 10px;
+
     }
-    h3{
-      margin-left: 3em;
-      
-      textarea{
-          border-radius: 10px;
-       
-      }
-        
-    }
+  }
 }

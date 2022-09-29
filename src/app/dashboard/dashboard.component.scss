@@ -1,0 +1,10 @@
+
+@use '../style/vars' as c;
+
+.cont{
+    margin-top: 7rem;
+
+    .datos-personales{
+      background-color: c.$rosaClaro;
+    }
+}

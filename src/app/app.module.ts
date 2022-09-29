@@ -15,6 +15,7 @@ import { ProyectosComponent } from './componentes/proyectos/proyectos.component'
 import { LogoNombreComponent } from './componentes/logo-nombre/logo-nombre.component';
 import { SocialesLoginComponent } from './componentes/sociales-login/sociales-login.component';
 import { SobreMiTextoComponent } from './componentes/sobre-mi-texto/sobre-mi-texto.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 
 
@@ -33,7 +34,8 @@ import { SobreMiTextoComponent } from './componentes/sobre-mi-texto/sobre-mi-tex
     ProyectosComponent,
     LogoNombreComponent,
     SocialesLoginComponent,
-    SobreMiTextoComponent
+    SobreMiTextoComponent,
+    DashboardComponent
   
   ],
   imports: [
